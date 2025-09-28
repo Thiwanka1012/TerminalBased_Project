@@ -71,6 +71,7 @@ class MyShop{
 						else{
 						if(users[i][0].equalsIgnoreCase(email)){
 							System.out.println("Email is Already Exists");
+							return false;
 							}	
 						}
 					}
