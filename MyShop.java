@@ -49,6 +49,28 @@ class MyShop{
 		
 		//Login Process
 		public static boolean login(){
+			
+			Scanner input=new Scanner(System.in);
+			
+			System.out.print("Enter Your Email:");
+			String email=input.nextLine();
+			
+			System.out.print("Enter Your password");
+			String password=input.nextLine();
+			
+			
+			for (int i = 0; i < users.length; i++){
+				if(users[i][0].equalsIgnoreCase(email)){
+					if(users[i][0]!=null && users[i][1].equals(password)){
+						System.out.println("Welcome Again....");
+						return true;
+						}
+					}
+				}
+			{
+				
+			}
+			
 			return false;
 			
 			}
