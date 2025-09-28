@@ -27,8 +27,16 @@ class MyShop{
 			int userInput=input.nextInt();
 			
 			switch(userInput){
-				case 1: break;
-				case 2: break;
+				case 1: 
+					if(login()){
+						openDashboard();
+						}
+					break;
+				case 2:
+					if(register()){
+						openDashboard();
+						}
+					break;
 				case 3: break;
 				default:return;
 						
@@ -86,5 +94,13 @@ class MyShop{
 			
 			
 			}
+			
+			
+			public static void openDashboard(){
+				System.out.println("Now You are In Dashboard........");
+				
+			
+				
+				}
 	
 	}
