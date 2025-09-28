@@ -18,10 +18,25 @@ class MyShop{
 			System.out.println(temp);
 			}
 			
-			int UserInput=input.nextInt();
+			int userInput=input.nextInt();
 			
-			
+			switch(userInput){
+				case 1: break;
+				case 2: break;
+				case 3: break;
+				default:return;
+						
+				
+				}
 			
 		}
+		
+		
+		
+		//Login Process
+		public static boolean login(){
+			return false;
+			
+			}
 	
 	}
