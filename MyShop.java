@@ -37,8 +37,13 @@ class MyShop{
 						openDashboard();
 						}
 					break;
-				case 3: break;
-				default:return;
+				case 3:
+					System.out.println("Good bye...");
+				 break;
+				 
+				default:
+					System.out.println("Wrong Input...Try again...");
+				return;
 						
 				
 				}
