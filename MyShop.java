@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class MyShop{
 	public static void main(String[] args){
 		 
@@ -15,6 +17,11 @@ class MyShop{
 		for(String temp:startQuections){
 			System.out.println(temp);
 			}
+			
+			int UserInput=input.nextInt();
+			
+			
+			
 		}
 	
 	}
