@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 class MyShop{
 	public static void main(String[] args){
+		
+		String[][] users=new String[3][2];
 		 
 		 //1)Login
 		 //2)Register
