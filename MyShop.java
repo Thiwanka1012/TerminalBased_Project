@@ -55,6 +55,29 @@ class MyShop{
 			System.out.print("Enter Your Password:");
 			String password=input.nextLine();
 			
+			if(users[users.length-1][0]!=null){
+				System.out.println("Sorry..Database is Full");
+				return  false;
+				
+				
+			}else{
+				
+				for (int i = 0; i < users.length; i++){
+					if(users[i][0]==null){
+						users[i][0]=email;
+						users[i][1]=password;
+						return true;
+						}
+					}
+				{
+					
+				}
+				
+				
+				
+				}
+			
+			
 			
 			}
 	
