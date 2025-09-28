@@ -1,9 +1,13 @@
 import java.util.Scanner;
 
 class MyShop{
+	
+	static String[][] users=new String[3][2];
+	
+	
 	public static void main(String[] args){
 		
-		String[][] users=new String[3][2];
+		
 		 
 		 //1)Login
 		 //2)Register
@@ -38,6 +42,19 @@ class MyShop{
 		//Login Process
 		public static boolean login(){
 			return false;
+			
+			}
+			
+			
+		public static boolean register(){
+			Scanner input=new Scanner(System.in);
+			
+			System.out.print("Enter your email:");
+			String email=input.nextLine();
+			
+			System.out.print("Enter Your Password:");
+			String password=input.nextLine();
+			
 			
 			}
 	
