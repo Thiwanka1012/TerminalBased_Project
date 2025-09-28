@@ -6,13 +6,15 @@ class MyShop{
 		 //3)Exit
 		 
 		 
-		 String startQuection[] = {
+		 String startQuections[] = {
 			 "1) Do you want to Login ?",
 			 "2)Do you want to Register ?",
 			 "3)Do you want to Exist ?"
 			 
 		 }; 
-		
+		for(String temp:startQuections){
+			System.out.println(temp);
+			}
 		}
 	
 	}
