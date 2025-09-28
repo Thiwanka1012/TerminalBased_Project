@@ -19,7 +19,18 @@ class MyShop{
 			 "2)Do you want to Register ?",
 			 "3)Do you want to Exist ?"
 			 
+	
+			 
 		 }; 
+		 
+		 
+		 boolean existState = false;
+		 
+		 while(!existState){
+			 
+			 
+			 }
+		 
 		for(String temp:startQuections){
 			System.out.println(temp);
 			}
