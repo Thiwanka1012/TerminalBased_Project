@@ -60,11 +60,15 @@ class MyShop{
 			
 			
 			for (int i = 0; i < users.length; i++){
-				if(users[i][0].equalsIgnoreCase(email)){
+				if(users[i][0]!=null && users[i][0].equalsIgnoreCase(email)){
 					if(users[i][0]!=null && users[i][1].equals(password)){
 						System.out.println("Welcome Again....");
 						return true;
 						}
+						else{
+							System.out.println("Wrong Password..Try again...");
+							return false;
+							}
 					}
 				}
 			{
