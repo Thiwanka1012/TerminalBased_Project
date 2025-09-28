@@ -68,6 +68,11 @@ class MyShop{
 						users[i][1]=password;
 						return true;
 						}
+						else{
+						if(users[i][0].equalsIgnoreCase(email)){
+							System.out.println("Email is Already Exists");
+							}	
+						}
 					}
 				{
 					
